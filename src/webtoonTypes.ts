@@ -19,3 +19,17 @@ export interface IWebtoonDetail {
   age: string;
   thumb: string;
 }
+// {
+//   "thumb": "https://image-comic.pstatic.net/webtoon/790713/177/thumbnail_202x120_a4833078-ac3a-4bef-8eec-adbce0530e98.jpg",
+//   "id": "177",
+//   "title": "176화-저널",
+//   "rating": "9.98",
+//   "date": "23.11.16"
+// },
+export interface IEpisode {
+  title: string;
+  id: string;
+  thumb: string;
+  rating: string;
+  date: string;
+}
